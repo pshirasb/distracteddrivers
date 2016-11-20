@@ -399,9 +399,9 @@ def train_kfold():
     nb_val = 1600
     width  = 224
     height = 224
-    train_dir    = "/home/boss/kaggle/dashcam/data/train"
-    test_dir     = "/home/boss/kaggle/dashcam/data/test"
-    driver_csv   = "/home/boss/kaggle/dashcam/data/driver_imgs_list.csv"
+    train_dir    = "~/kaggle/dashcam/data/train"
+    test_dir     = "~/kaggle/dashcam/data/test"
+    driver_csv   = "~/kaggle/dashcam/data/driver_imgs_list.csv"
     weights_path = './kfold_weights'
     resume    = False
     FREEZE_ALL  = 0
